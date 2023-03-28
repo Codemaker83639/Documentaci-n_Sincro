@@ -1,6 +1,6 @@
 # Documentaci-n_Sincro
 ### Francisco Ogando (2021-0160)
-### Documentación problema del barbero
+### Documentación problema del barbero Sincronización
 
 *En el archivo presente en este repositorio, osea el archivo python barberoDormilon, se encuentra el bloque de código que básicamente simula el funcionamiento de una barbería, donde hay un número de barberos y un número de clientes que llegan en momentos aleatorios. El programa utiliza hilos para simular el comportamiento de los barberos y los clientes.* 
 
