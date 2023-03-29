@@ -1,7 +1,7 @@
 # Documentaci-n_Sincro
 ### Francisco Ogando (2021-0160)
 ### Documentación problema del barbero Sincronización
-[Link video explicando resolución del problema barabero durmiente] (https://miucateciedu-my.sharepoint.com/personal/20210160_miucateci_edu_do/_layouts/15/onedrive.aspx?login_hint=20210160%40miucateci%2Eedu%2Edo&id=%2Fpersonal%2F20210160%5Fmiucateci%5Fedu%5Fdo%2FDocuments%2FSist%20operativo%20II%2FInShot%5F20230328%5F235646128%2Emp4&parent=%2Fpersonal%2F20210160%5Fmiucateci%5Fedu%5Fdo%2FDocuments%2FSist%20operativo%20II)
+[Link video explicando resolución del problema barabero durmiente](https://miucateciedu-my.sharepoint.com/personal/20210160_miucateci_edu_do/_layouts/15/onedrive.aspx?login_hint=20210160%40miucateci%2Eedu%2Edo&id=%2Fpersonal%2F20210160%5Fmiucateci%5Fedu%5Fdo%2FDocuments%2FSist%20operativo%20II%2FInShot%5F20230328%5F235646128%2Emp4&parent=%2Fpersonal%2F20210160%5Fmiucateci%5Fedu%5Fdo%2FDocuments%2FSist%20operativo%20II)
 
 *En el archivo presente en este repositorio, osea el archivo python barberoDormilon, se encuentra el bloque de código que básicamente simula el funcionamiento de una barbería, donde hay un número de barberos y un número de clientes que llegan en momentos aleatorios. El programa utiliza hilos para simular el comportamiento de los barberos y los clientes.* 
 
