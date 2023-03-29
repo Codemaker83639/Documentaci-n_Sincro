@@ -1,7 +1,7 @@
 import threading
 import time
 import random
-import queue # módulo queue para get y put, seguro de usar.
+import queue 
 
 BARBEROS = 1 # monto de BARBEROS, se puede cambiar.
 CLIENTES = 100 # monto de CLIENTES, se puede cambiar.
@@ -22,7 +22,7 @@ class Barbero(threading.Thread):
 
 	def run(self):
 		while True:
-			try:	# uar un try & except es mejor que revisar tamaño de queue, pues queue.qsize() no es seguro con hilos.
+			try:	
 				cliente_actual = sala_espera.get(block=False) # block=false para que el hilo no espere/bloquee para obtener unn espacio en la queue.
 			except queue.Empty: # se lanza cuando sala_espera está llena.
 				if self.alto_completo.is_set(): # alto_completo se actica sólo cuando CLIENTES han sido atendidos completamente.
@@ -68,7 +68,7 @@ class Cliente(threading.Thread):
 
 if __name__ == "__main__":
 	TODOS_CLIENTES = []          # lista de todos CLIENTES a atender.
-	sala_espera = queue.Queue(ASIENTOS) # tamaño maximo de ASIENTOS, elimina la necesidad de Queue.qsize() antes de Queue.put()
+	sala_espera = queue.Queue(ASIENTOS) 
 
 	for i in range(BARBEROS): # crea el hilo barbero.
 		hilo_barbero = Barbero(i)
